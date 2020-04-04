@@ -1,4 +1,4 @@
-# Laravel 6 調試工具
+# Laravel 7 調試工具
 
 引入 barryvdh 的 laravel-debugbar 套件來擴增實作調試工具，可以顯示調試訊息以及運行情況。
 
