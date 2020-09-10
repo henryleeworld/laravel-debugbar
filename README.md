@@ -1,4 +1,4 @@
-# Laravel 7 調試工具
+# Laravel 8 調試工具
 
 引入 barryvdh 的 laravel-debugbar 套件來擴增實作調試工具，可以顯示調試訊息以及運行情況。
 
@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/a2B3bz4.png)
+![](https://i.imgur.com/2pTL3dY.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
 
-![](https://i.imgur.com/e0hlJBI.png)
+![](https://i.imgur.com/LjvmxId.png)
 > 對資料庫進行查詢、新增、修改、刪除資料等動作執行語法查詢
