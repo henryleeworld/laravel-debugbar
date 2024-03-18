@@ -1,4 +1,4 @@
-# Laravel 10 調試工具
+# Laravel 11 調試工具
 
 引入 barryvdh 的 laravel-debugbar 套件來擴增實作調試工具，可以顯示調試訊息以及運行情況。
 
@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/MAPq4X5.png)
+![](https://i.imgur.com/LPxuaYi.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
 
-![](https://i.imgur.com/TEVgxVr.png)
+![](https://i.imgur.com/dMPcyQd.png)
 > 對資料庫進行查詢、新增、修改、刪除資料等動作執行語法查詢
