@@ -8,12 +8,9 @@ use App\Models\User;
 class UserController extends Controller
 {
     /**
-     * Show the profile for the given user.
-     *
-     * @param  int  $id
-     * @return View
+     * Display the specified resource.
      */
-    public function show($id)
+    public function show(string $id)
     {
         return view('welcome', ['user' => User::findOrFail($id)]);
     }
